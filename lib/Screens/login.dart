@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mobile_app/Screens/forgot_password.dart';
 
 class login_screen extends StatefulWidget {
   @override
@@ -115,7 +116,7 @@ class _login_screenState extends State<login_screen> {
                           mainAxisAlignment: MainAxisAlignment.end,
                           children: [
                             TextButton(
-                              onPressed: () {},
+                              onPressed: () {Navigator.of(context).push(MaterialPageRoute(builder: (context) => forgot_password_screen(),));},
                               child: Text(
                                 'Forgot Password?', style: TextStyle(
                                 color: Color(0xff2A4D69),
