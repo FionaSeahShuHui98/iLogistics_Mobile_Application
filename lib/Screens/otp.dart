@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mobile_app/Screens/navigation_bar.dart';
 import 'package:pin_entry_text_field/pin_entry_text_field.dart';
 
 class otp_screen extends StatefulWidget {
@@ -69,12 +70,13 @@ class _otp_screenState extends State<otp_screen> {
               ),
             ),
 
+            // Reset Password Button
             Container(
               width: double.infinity,
               height: 50,
               margin: EdgeInsets.only(top: 50, left: 20, right: 20,),
               child: ElevatedButton.icon(
-                onPressed: () {},
+                onPressed: () {Navigator.of(context).push(MaterialPageRoute(builder: (context) => navigation_bar(),));},
                 icon: Icon(Icons.restart_alt),
                 label: Text(
                   "Send OTP",

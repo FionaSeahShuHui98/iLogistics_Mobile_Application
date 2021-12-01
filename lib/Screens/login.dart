@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mobile_app/Screens/forgot_password.dart';
+import 'package:mobile_app/Screens/navigation_bar.dart';
 
 class login_screen extends StatefulWidget {
   @override
@@ -135,7 +136,7 @@ class _login_screenState extends State<login_screen> {
                           child: ElevatedButton.icon(
                               icon: Icon(Icons.login),
                               label: Text("Login", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22,)),
-                              onPressed: () {},
+                              onPressed: () {Navigator.of(context).push(MaterialPageRoute(builder: (context) => navigation_bar(),));},
                               style: ElevatedButton.styleFrom(
                                 primary: Color(0xff2A4D69),
                                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
