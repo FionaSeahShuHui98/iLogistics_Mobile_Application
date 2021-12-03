@@ -38,6 +38,7 @@ dependencies:
   charts_flutter: ^0.12.0
   pie_chart: ^5.1.0
   flutter_phone_direct_caller: ^2.1.0
+  flutter_slidable: ^1.1.0
 
 dev_dependencies:
   flutter_test:
