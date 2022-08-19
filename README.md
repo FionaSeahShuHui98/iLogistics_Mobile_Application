@@ -1,4 +1,40 @@
 # The TMS Mobile
+
+## Google Firebase
+
+<b>Step 1: </b> Go to this line -> https://firebase.google.com/
+
+<b>Step 2: </b> Log in using the following credentials
+
+Email: ilogistics577178@gmail.com
+
+Password: @dmin123
+
+<b>Step 3: </b> Click on "Go to Console" (box in red)
+
+![image](https://user-images.githubusercontent.com/71055210/185568556-63b90217-d945-40a1-ba3a-b0e2514a2f4c.png)
+
+and the following screen will appear.
+
+![image](https://user-images.githubusercontent.com/71055210/185568792-5ee7f898-5da2-4f5f-b65b-59a34f2a1475.png)
+
+<b>Step 4: </b> Click on "iLogistics" (box in red)
+
+![image](https://user-images.githubusercontent.com/71055210/185569314-e61e0d8d-e828-479d-a3a5-40fc36f6a540.png)
+
+and the following screen will appear.
+
+![image](https://user-images.githubusercontent.com/71055210/185569623-968e415a-f933-4bc9-a8a6-48d4eed40ddf.png)
+
+<b>Step 5: </b> Click on "Firebase Database" (Box in red)
+
+![image](https://user-images.githubusercontent.com/71055210/185570194-5682219e-5f0b-408c-940b-79c015792608.png)
+
+<b>Step 6: </b> And the database can be seen
+
+![image](https://user-images.githubusercontent.com/71055210/185570340-46828388-38f6-4035-9360-1c3b196c2522.png)
+
+## Codes
  
 ### How to run the application 
 
